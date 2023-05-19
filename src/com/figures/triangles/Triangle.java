@@ -4,11 +4,11 @@ import com.figures.Figures;
 class Triangle extends Figures {
     private String name;
     private String type;
-    private int a;
-    private int b;
-    private int c;
-    private int r;
-    private int h;
+    private double a;
+    private double b;
+    private double c;
+    private double r;
+    private double h;
 
     public String getName() {
         return name;
@@ -18,27 +18,27 @@ class Triangle extends Figures {
         return type;
     }
 
-    public int getA() {
+    public double getA() {
         return a;
     }
 
-    public int getB() {
+    public double getB() {
         return b;
     }
 
-    public int getC() {
+    public double getC() {
         return c;
     }
 
-    public int getR() {
+    public double getR() {
         return r;
     }
 
-    public int getH() {
+    public double getH() {
         return h;
     }
 
-    public Triangle(String name, String type, int a, int b, int c, int r, int h) {
+    public Triangle(String name, String type, double a, double b, double c, double r, double h) {
         super(name, type);
         this.a = a;
         this.b = b;
