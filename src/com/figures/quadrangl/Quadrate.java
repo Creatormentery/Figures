@@ -19,6 +19,11 @@ public class Quadrate extends Figures {
         return a;
     }
 
+    public Quadrate(String name, String type, double a) {
+        super(name, type);
+        this.a = a;
+    }
+
     @Override
     public double getPerimetr() {
         return getA() * 4;

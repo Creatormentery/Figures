@@ -1,7 +1,7 @@
 package com.figures.triangles;
 import com.figures.Figures;
 
-class Triangle extends Figures {
+public class Triangle extends Figures {
     private String name;
     private String type;
     private double a;
